@@ -1,0 +1,12 @@
+<p-panel header="Brand Master" >
+  <div>
+    <h5>Brand Name</h5>
+    <input type="text" pInputText [(ngModel)]="brandName" />
+  </div>
+  <br />
+  <div>
+    <button pButton type="button" label="Submit"></button>
+  </div>
+</p-panel>
+<h4>Output</h4>
+<textarea style="margin-left: 5px;" rows="15" cols="50" pInputTextarea autoResize="autoResize">{{ brandName }}</textarea>
